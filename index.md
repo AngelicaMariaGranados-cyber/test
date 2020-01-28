@@ -1,7 +1,3 @@
----
-layout: home
----
-
 
 # ARANDA SOFTWARE 
 
