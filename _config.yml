@@ -1,1 +1,20 @@
-theme: jekyll-theme-slate
+# Site settings
+title: ARANDA SOFTWARE
+email: angelicagranadoscampos@gmail.com
+description: Realizando ruebas de sintaxis
+url: "https://angelicamariagranados-cyber.github.io/Pruebas"
+twitter_username: anguiegranados
+github_username:  AngelicaMariaGranados-cyber
+
+# Build settings
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" 
+      type: "posts" 
+    values:
+      layout: "post"
+      author: "Angelica Granados"
