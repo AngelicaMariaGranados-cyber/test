@@ -20,3 +20,5 @@ defaults:
       layout: "post"
       author: "Angelica Granados"
 
+
+theme: jekyll-theme-architect
