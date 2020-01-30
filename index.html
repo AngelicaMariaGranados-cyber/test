@@ -1,100 +1,128 @@
 
 <!DOCTYPE html>
-<html>
-    <head>
-	 
-<meta charset ="utf-8">
-     
-	    <style type="text/css">
-	   
-               body { background-color: #FFFFFF;
-               }
-               body {padding: 0em 3em 3em 3em}
-             
-			*{margin:0;padding:0;box-sizing:border-box;font-size:0;}  
-			nav a{
-			      text-decoration:none;
-			      color:inherit;
-			      font-size:14px;
-			      }
+<html lang="en">
+<head>
+    <title>Documentación Aranda</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+    <link rel="stylesheet" href="assets/plugins/fontello/css/fontello.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
-			nav li{
-			      display:inline-block;
-			      width:150px;
-			      height:30px;
-			      padding:5px 10px;
-			      background-color:#000;
-			      border:1px solid #000;
-			      text-align:center;
-			      color:#000;
-			      position:relative;
-			}
+</head>
 
-			nav li:hover{
-			      background-color:#fff;
-			      color:#000;
-			      }
+<body class="landing-page">
 
-			nav li>ul{
-			      display:none;
-			      }
+	<!-- GITHUB BUTTON JS -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-			nav li:hover>ul{
-			      display:block;
-			      position:absolute;
-			      top:30px;
-			      left:0px;
-			}
-			</style>
+    <!--FACEBOOK LIKE BUTTON JAVASCRIPT SDK-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
-			<nav>
-			<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Quiénes somos</a></li>
-			<li><a href="#">Servicios</a>
-			    <ul><li><a href="">Servicio 1</a></li>
-			    <li><a href="">Servicio 2</a></li>
-			    <li><a href="">Servicio 3</a></li>
-			    <li><a href=""></a>Servicio 4</li></ul>
-			    </li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Contacto</a></li>
-		    </ul>
-		</nav>
-	
-		</header>
+    <div class="page-wrapper">
 
-		  </head>
-		
-	<body>
-		<title>Aranda Software</title>
-		
-         <font color="black" face="Arial">
-		
-		 <center><p><h1>Aranda Device Management</h1></p></center>   
-        
-	    </center>
-        <center>
+        <!-- ******Header****** -->
+        <header class="header text-center">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <span class="text-highlight">Aranda Software</span>
+                    </h1>
+                </div><!--//branding-->
+                <div class="tagline">
+                    <p>Hacemos tu gestión de IT mucho más fácil</p>
+                </div><!--//tagline-->
 
-		<img style="margin:10px;" alt="" src="https://github.com/AngelicaMariaGranados-cyber/test/blob/master/Aranda%203.%20p.PNG?raw=true" />
-	
+	             <div class="main-search-box pt-3 pb-4 d-inline-block">
+	                 <form class="form-inline search-form justify-content-center" action="" method="get">
 
-         <center><h1>¿ Por qué Aranda Device Management ?</h1></center>
-         </br>
-            
-        <p>Aranda Device Management es el resultado del desarrollo e integración de cinco herramientas en una solución. 
-        Todas las soluciones de gestión de equipos en un solo lugar. Permitiendo administrar de manera unificada los recursos de hardware y
-        software, licenciamiento, medición, distribución de software,
-        actualización y parchado, así como las políticas de energía en su
-        organización.
-        </p>
-            
-         </font>
-        </center>
-		
+			            <input type="text" placeholder="Enter search terms..." name="search" class="form-control search-input">
 
-		
-    </body>
+			            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+
+			        </form>
+	             </div>
+
+            </div><!--//container-->
+        </header><!--//header-->
+
+        <section class="cards-section text-center">
+            <div class="container">
+                <h2 class="title">Conoce nuestras soluciones</h2>
+                <div class="intro">
+                    <p>Aranda Software le ofrece una nueva plataforma para unificar la información y todos los contenidos relacionados con los productos que ofrece nuestra solución:</p>
+
+                </div><!--//intro-->
+                <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item item-green col-lg-4 col-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <i class="icon icon-adm"></i>
+                            </div><!--//icon-holder-->
+                            <h3 class="title">ADM</h3>
+                            <p class="intro"> Un paquete de software diseñado para gestionar los activos informáticos de la compañía</p>
+                            <a class="link" href="adm.html"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item item-pink item-2 col-lg-4 col-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <span aria-hidden="true" class="icon icon-aemm"></span>
+                            </div><!--//icon-holder-->
+                            <h3 class="title">AEMM</h3>
+                            <p class="intro">Una solución creada para enfrentar los retos de gestión de dispositivos móviles en empresas de cualquier tamaño...</p>
+                            <a class="link" href="aemm.html"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item item-blue col-lg-4 col-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <span aria-hidden="true" class="icon icon-afls"></span>
+                            </div><!--//icon-holder-->
+                            <h3 class="title">AFLS</h3>
+                            <p class="intro">Una Herramienta para la gestión y solución de órdenes de trabajo...</p>
+                            <a class="link" href="afls.html"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//cards-->
+
+            </div><!--//container-->
+        </section><!--//cards-section-->
+    </div><!--//page-wrapper-->
+
+    <footer class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
 </html>
-
-
